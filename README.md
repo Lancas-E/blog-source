@@ -1,0 +1,2 @@
+# blog
+keep your mind
