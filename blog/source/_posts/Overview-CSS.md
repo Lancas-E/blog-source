@@ -1,6 +1,6 @@
 ---
 title: 'Overview: CSS'
-date: 2020-03-15 22:48:03
+date: 2018-03-15 22:48:03
 categories: CSS
 tags: 
 - overview
@@ -15,7 +15,7 @@ tags:
 
 此外，还有大量丰富的细节美化工作，比如字体、边框、阴影等。尤其是[CSS3](https://developer.mozilla.org/zh-CN/docs/Archive/CSS3)的普遍使用，前端页面可以实现非常优秀的视觉效果。
 
-综上给出三条CSS的学习路线：
+**CSS中三个重要知识点：**
 - 盒模型-box model
 - 布局-layout
 - 局部样式、动效等-partial style, animation, etc.
