@@ -1,7 +1,7 @@
 ---
 title: 可视化排版模型
 date: 2020-03-26 17:00:28
-tags:
+categories: CSS
 ---
 
 可视化排版模型([Visual formatting model](https://www.w3.org/TR/CSS2/visuren.html))，描述浏览器(常见的可视化媒体)处理文档树([document tree](https://www.w3.org/TR/CSS2/conform.html#doctree))的过程。CSS盒模型与布局都是服务于可视化排版模型的，之前已经介绍过了，本文主要补充一些展示区域的相关问题。

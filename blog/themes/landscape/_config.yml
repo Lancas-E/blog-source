@@ -13,7 +13,8 @@ sidebar: right
 widgets:
 - category
 - tag
-- tagcloud
+- demo
+# - tagcloud
 # - archive
 # - recent_posts
 

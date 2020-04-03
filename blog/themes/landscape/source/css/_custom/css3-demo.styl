@@ -1,0 +1,81 @@
+.css-demo-row {
+  display: flex;
+}
+.css-demo-item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 4px solid yellow;
+  transform: rotate(45deg); 
+}
+#loading-1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border: 4px solid yellow;
+  animation: 0.7s linear 0s infinite loading-1;
+}
+@keyframes loading-1 {
+  0% {
+    height: 40px;
+    width: 40px;
+  }
+  50% {
+    height: 70px;
+    width: 70px;
+  }
+  80% {
+    height: 80px;
+    width: 80px;
+    border-color: transparent;
+  }
+  100% {
+    height: 80px;
+    width: 80px;
+    border-color: transparent;
+  }
+}
+
+#loading-2 span {
+  display: inline-block;
+  width: 8px;
+  height: 100%;
+  border-radius: 4px;
+  background: lightgreen;
+  animation: load-2 1s ease infinite;
+}
+@keyframes load-2 {
+  0%,100% {
+      height: 40px;
+      background: lightgreen;
+  }
+  50%{
+      height: 70px;
+      margin: -15px 0;
+      background: lightblue;
+  }
+}
+#loading-2 span:nth-child(2) {
+  animation-delay:0.2s;
+}
+#loading-2 span:nth-child(3) {
+  animation-delay:0.4s;
+}
+#loading-2 span:nth-child(4) {
+  animation-delay:0.6s;
+}
+#loading-2 span:nth-child(5) {
+  animation-delay:0.8s;
+}
