@@ -7,8 +7,8 @@ title: PENGUIN-SHED-94
 subtitle: 'keepknowledgeastreasure'
 description: '记录一些知识点'
 keywords:
-author: Youhan Zhang
-language: en
+author: Zhang Youhan
+language: zh-CN
 timezone: ''
 
 # URL
@@ -101,3 +101,9 @@ deploy:
   type: git
   repo: https://github.com/Lancas-E/blog.git
   branch: master
+
+# 图片懒加载  
+lazyload:
+  enable: true 
+  onlypost: false
+  # loadingImg: /blog/img/loading.png 
